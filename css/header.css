@@ -94,3 +94,20 @@
     flex-grow: 0;
 
 }
+.active::backdrop{
+position: absolute;
+width: 65px;
+height: 4px;
+left: calc(50% - 65px/2);
+bottom: 1px;
+
+/* OCEAN */
+background: #404BBF;
+border-radius: 2px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+}

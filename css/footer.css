@@ -2,6 +2,10 @@
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
 }
 .footer__logo{
     font-family: "Raleway", sans-serif;
@@ -18,4 +22,25 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
+}
+.footer__icon{
+    margin-left: 12px;
+    margin-top: 12px;
+
+    color: #FFFFFF;
+
+}
+.socials .footer__link{
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+    background: #4D5AE5;
+
+}
+.socials .footer__link:hover{
+    background-color: #31D0AA;
+}
+.socials .footer__link:focus{
+    background-color: #31D0AA;
 }
