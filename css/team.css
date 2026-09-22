@@ -47,21 +47,19 @@ gap: 72px;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
     flex-wrap: wrap;
-    margin-top: 16px;
+    margin-top: 8px;
 }
 .socials .team__link{
-    display: block flex;
-    border-radius: 40px;
+    display: flex;
+    border-radius: 50%;
     width: 40px;
     height: 40px;
     align-items: center;
     justify-content: center;
     background: #4D5AE5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    align-items: center;
-
 }
 .socials .team__link:hover{
     background-color: #404BBF;
