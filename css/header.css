@@ -19,20 +19,20 @@
 }
 .active {
     position: relative;
-    color: #404BBF; /* Колір тексту самого посилання */
+    color: #404BBF;
     text-decoration: none;
-    display: inline-block; /* Щоб зчитувалися розміри */
+    display: inline-block; 
 }
 .active::after {
     content: "";
     position: absolute;
-    display: block; /* Виправлено: block замість black */
+    display: block; 
     width: 100%;
     height: 4px;
-    background-color: #404BBF; /* Виправлено: background-color для кольору лінії */
+    background-color: #404BBF;
     left: 0;
-    bottom: 0px; /* Опускаємо лінію під текст */
-    border-radius: 2px; /* Необов'язково: заокруглення кутів лінії */
+    bottom: 0px; 
+    border-radius: 2px; 
 }
 .nav__links a:hover {
     color: #404BBF;
