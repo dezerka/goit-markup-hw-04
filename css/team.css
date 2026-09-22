@@ -29,7 +29,8 @@ gap: 72px;
     align-items: flex-start;
     padding: 0px;
     background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
     border-radius: 0px 0px 4px 4px;
     /* allow flexible sizing instead of fixed width/height */
     max-width: 100%;
@@ -45,13 +46,15 @@ gap: 72px;
     align-items: flex-start;
     gap: 24px;
     flex-wrap: wrap;
+    margin-top: 8px;
 }
 .socials .team__link{
     border-radius: 40px;
     width: 40px;
     height: 40px;
-    margin-top: 8px;
     background: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    align-items: center;
 
 }
 .socials .team__link:hover{
@@ -63,8 +66,6 @@ gap: 72px;
 
 .team__icon{
     margin-top: 12px;
-    width: 16;
-    height: 16;
     color: #FFFFFF;
 }
 
