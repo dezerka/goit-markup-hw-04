@@ -47,9 +47,9 @@
     margin-top: 16px;
 }
 
-.footer__socials p{
+.footer__socials__text{
     font-weight: 500;
-    color: #F4f4FD;
+    color: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }

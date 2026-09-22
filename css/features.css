@@ -7,7 +7,7 @@
     display: flex;
     gap: 24px;
 }
-.features__list li{
+.features__item{
     width: 264px;
 }
 .features__title {
@@ -33,7 +33,7 @@
 .features__decoration{
 
     box-sizing: border-box;
-
+    margin-bottom: 8px;
     display: flex;
     flex-direction: row;
     justify-content: center;
