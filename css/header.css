@@ -31,7 +31,7 @@
     height: 4px;
     background-color: #404BBF; /* Виправлено: background-color для кольору лінії */
     left: 0;
-    bottom: -4px; /* Опускаємо лінію під текст */
+    bottom: 0px; /* Опускаємо лінію під текст */
     border-radius: 2px; /* Необов'язково: заокруглення кутів лінії */
 }
 .nav__links a:hover {
